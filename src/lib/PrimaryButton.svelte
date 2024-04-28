@@ -7,7 +7,7 @@
 
 </script>
 
-<button on:click={func} class="bg-slate-900 shadow-sm hover:shadow-lg border-solid border-2 p-2 border-slate-400 hover:border-cyan-600 hover:bg-cyan-950 rounded-lg">
+<button on:click={func} class="bg-slate-900 shadow-sm hover:shadow-lg border-solid border-2 p-2 border-slate-400 hover:border-cyan-600 hover:bg-cyan-950 rounded-lg h-fit">
   <div class="flex items-center">
     <Fa icon={prefixIcon} class="mx-1"/>
     <p class="mx-1">
