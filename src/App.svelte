@@ -3,6 +3,7 @@
 </script>
 
 <main>
-  <h1 class="py-8 px-4 border border-indigo-900 shadow-lg">Hello {name}!</h1>
-  <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <div class="bg-slate-800 flex text-white h-screen p-5 justify-center items-center">
+    <Counter />
+  </div>
 </main>
