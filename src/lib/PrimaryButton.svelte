@@ -9,10 +9,14 @@
 
 <button on:click={func} class="bg-slate-900 shadow-sm hover:shadow-lg border-solid border-2 p-2 border-slate-400 hover:border-cyan-600 hover:bg-cyan-950 rounded-lg h-fit">
   <div class="flex items-center">
-    <Fa icon={prefixIcon} class="mx-1"/>
-    <p class="mx-1">
+    {#if prefixIcon !== undefined}
+    <Fa icon={prefixIcon} class="mr-2 ml-1"/>
+    {/if}
+    <p>
       {title}
     </p>
-    <Fa icon={sufixIcon} class="mx-1"/>
+    {#if sufixIcon !== undefined}
+    <Fa icon={sufixIcon} class="mr-1 ml-2"/>
+    {/if}
   </div>
 </button>
