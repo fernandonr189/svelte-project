@@ -3,7 +3,7 @@
     import NavbarItemLogo from "./NavbarItemLogo.svelte";
     import Fa from "svelte-fa";
     import { faCircleChevronDown, faDoorOpen } from "@fortawesome/free-solid-svg-icons";
-    import PrimaryButton from "../PrimaryButton.svelte";
+    import PrimaryButton from "../components/PrimaryButton.svelte";
     import { Router, Link, Route } from 'svelte-routing'
     export let url
 </script>

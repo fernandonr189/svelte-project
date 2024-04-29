@@ -1,6 +1,6 @@
 <script>
     import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-    import PrimaryButton from "../PrimaryButton.svelte";
+    import PrimaryButton from "../components/PrimaryButton.svelte";
     
     
     let counter = 0
