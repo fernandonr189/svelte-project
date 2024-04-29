@@ -3,7 +3,7 @@
     export let title
 </script>
 
-
 <div>
-    <a href={href}>{title}</a>
+    <a class="hover:text-blue-400"
+    href={href}>{title}</a>
 </div>
