@@ -2,7 +2,7 @@
   import Fa from 'svelte-fa'
   export let prefixIcon = undefined
   export let sufixIcon = undefined
-  export let func
+  export let func = () => {}
   export let title
 
 </script>

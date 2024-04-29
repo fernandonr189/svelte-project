@@ -30,9 +30,7 @@
             </div>
             <div class="px-2">
                 <Link to="/login">
-                    <PrimaryButton func={
-                        console.log("Henlos")
-                    } title="Login" prefixIcon={faDoorOpen}/>
+                    <PrimaryButton title="Login" prefixIcon={faDoorOpen}/>
                 </Link>
             </div>
         </div>
