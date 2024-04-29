@@ -34,8 +34,8 @@
                 </Link>
             </div>
         </div>
-        <div class="md:hidden text-xl">
+        <button class="md:hidden text-xl">
             <Fa icon={faCircleChevronDown} />
-        </div>
+        </button>
     </nav>
 </Router>

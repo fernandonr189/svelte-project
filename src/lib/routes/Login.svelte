@@ -12,5 +12,7 @@
 
 
 <div class="bg-slate-800 flex text-white h-screen p-5 justify-center items-center">
-    <PrimaryButton prefixIcon={faCartShopping} func={increment} title="Count is {counter}: Login"/>
+  <div class="bg-slate-950 rounded-lg p-10">
+    <p>helo</p>
+  </div>
 </div>
