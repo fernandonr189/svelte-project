@@ -19,14 +19,14 @@
                 </Link>
             </div>
             <div class="px-2">
+                <Link to="/products">
+                    <NavbarItem title="Products"/>
+                </Link>
+            </div>
+            <div class="px-2">
                 <Link to="/about">
                     <NavbarItem title="About"/>
                 </Link>  
-            </div>
-            <div class="px-2">
-                <Link to="/products">
-                    <NavbarItem title="Produts"/>
-                </Link>
             </div>
             <div class="px-2">
                 <Link to="/login">
