@@ -2,8 +2,8 @@
   import PrimaryButton from './lib/PrimaryButton.svelte'
   import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
   
-  let counter = 0;
-
+  let counter = 0
+  
   let increment = () => {
     counter += 1
   }
