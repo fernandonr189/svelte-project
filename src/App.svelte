@@ -4,6 +4,8 @@
   import Products from './lib/routes/Products.svelte'
   import About from './lib/routes/About.svelte';
   import Login from './lib/routes/Login.svelte';
+  import Footer from './lib/footer/Footer.svelte';
+  import Signup from './lib/routes/Signup.svelte';
   import { Router, Link, Route } from 'svelte-routing'
 
   export let url
@@ -16,5 +18,7 @@
     <Route path="/products" component={Products}/>
     <Route path="/about" component={About}/>
     <Route path="/login" component={Login}/>
+    <Route path="/signup" component={Signup}/>
   </Router>
+  <Footer/>
 </main>

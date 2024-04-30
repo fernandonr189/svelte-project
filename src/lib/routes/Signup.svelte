@@ -12,14 +12,12 @@
       <img src="cool-keyboard.jpg" alt="cool-keyboard" class="rounded-lg">
     </div>
     <div class="flex flex-col justify-center items-center">
+      <SimpleTextInput title="First name" placeholder="John"/>
+      <SimpleTextInput title="Last name" placeholder="Doe"/>
       <SimpleTextInput title="Email" placeholder="example@site.com"/>
       <SimpleTextInput title="Password" type="password"/>
       <div class="pt-5 pb-2">
-        <PrimaryButton prefixIcon={faDoorOpen} title={"Login"}/>
-      </div>
-      <div class="inline-flex">
-        <p class="pr-2">Not a member?</p>
-        <Link to="/signup">sign up</Link>
+        <PrimaryButton prefixIcon={faDoorOpen} title={"Sign up"}/>
       </div>
     </div>
   </div>
