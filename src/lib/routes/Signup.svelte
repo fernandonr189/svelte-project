@@ -19,6 +19,10 @@
       <div class="pt-5 pb-2">
         <PrimaryButton prefixIcon={faDoorOpen} title={"Sign up"}/>
       </div>
+      <div class="inline-flex text-xs">
+        <p class="pr-2">Already a member?</p>
+        <Link to="/login">log in</Link>
+      </div>
     </div>
   </div>
 </div>
