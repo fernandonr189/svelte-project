@@ -22,4 +22,6 @@ dist
 # OS-specific
 .DS_Store
 
+.vscode
+
 tmp
